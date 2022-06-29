@@ -1,0 +1,73 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "775a7eb79e9616dd4b074caee05b33f0",
+    "packages": [
+        {
+            "name": "javion/image",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slumzzw/Image.git",
+                "reference": "d89e8e460a8f6459652d2b5834a075465a511139"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slumzzw/Image/zipball/d89e8e460a8f6459652d2b5834a075465a511139",
+                "reference": "d89e8e460a8f6459652d2b5834a075465a511139",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Javion\\Image\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT License"
+            ],
+            "authors": [
+                {
+                    "name": "Javion",
+                    "email": "535090976@qq.com"
+                }
+            ],
+            "description": "图片合成，图片水印处理",
+            "homepage": "https://github.com/slumzzw/Image",
+            "keywords": [
+                "image",
+                "php",
+                "water",
+                "图片合成",
+                "图片水印"
+            ],
+            "support": {
+                "issues": "https://github.com/slumzzw/Image/issues",
+                "source": "https://github.com/slumzzw/Image/tree/1.0.1"
+            },
+            "time": "2017-12-02T16:55:10+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

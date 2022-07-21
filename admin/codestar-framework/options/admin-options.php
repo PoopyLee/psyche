@@ -32,44 +32,8 @@ CSF::createSection($prefix, array(
             'title'   => '网站icon图标',
             'default' => get_template_directory_uri() . '/assets/img/favicon.ico',
         ),
-
-        array(
-            'id'      => 'target_blank',
-            'type'    => 'switcher',
-            'title'   => '是否新窗口打开文章',
-            'label'   => '',
-            'default' => true,
-        ),
-
-        array(
-            'id'      => 'is_search_word',
-            'type'    => 'switcher',
-            'title'   => '是否开启搜索框下面的热门关键字',
-            'label'   => '',
-            'default' => true,
-        ),
-
-        array(
-            'id'         => 'site_search_words',
-            'type'       => 'select',
-            'title'      => '搜素关键词',
-            'placeholder' => '选择展示的分类',
-            'desc'       => '选择需要展示在搜索框下面的热门关键字',
-            'attributes' => array(
-                'style' => 'width: 100%;',
-            ),
-            'options'     => 'tags',
-            'chosen'      => true,
-            'multiple'    => true,
-            'dependency' => array('is_search_word', '==', 'true'),
-        ),
-
-
-
-
     ),
 ));
-
 //
 // SEO设置
 //
